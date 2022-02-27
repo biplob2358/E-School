@@ -1,0 +1,17 @@
+.navbar-brand img {
+  height: 59px;
+  width: 194px;
+}
+.navbar {
+  background-color: #f0fff0;
+}
+.navbar-collapse {
+  justify-content: right;
+}
+.btn {
+  background-color: #21b573;
+  border-radius: 33px;
+  width: 104px;
+  height: 43px;
+  color: white;
+}
