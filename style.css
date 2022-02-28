@@ -58,6 +58,10 @@
 .card2 {
   background-color: #f0fff0;
 }
+.card2:hover {
+  box-shadow: 5px 5px 10px gray;
+  background-color: white;
+}
 .card {
   padding-left: 35%;
   border: none;
@@ -67,10 +71,6 @@
 .card-img-top {
 }
 
-.card3 {
-  box-shadow: 0px 5px 10px gray;
-  border-radius: 10px;
-}
 .card3 img {
   padding: 20px;
 }
@@ -82,7 +82,12 @@
   height: 70px;
   margin: 0%;
 }
-.btn3 {
+.card3 {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+.card3:hover {
+  box-shadow: 0px 5px 10px gray;
 }
 .card-footer {
   border: none;
@@ -109,4 +114,28 @@ label {
 }
 .text-dark {
   font-size: 20px;
+}
+footer {
+  background: #282531;
+  padding: 40px 20px 10px 20px;
+  margin-top: 100px;
+  height: 100%;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #a79f9f;
+}
+.footer-text {
+  text-align: center;
+  margin-top: 50px;
+  color: #a79f9f;
+}
+.form-control:focus {
+  box-shadow: 0px 0px 1px 2px #28a745;
 }
